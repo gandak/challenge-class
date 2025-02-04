@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function BackgroundImage() {
   return (
     <div className="max-w-[1280px] w-full bg-[url('/layout2.png')] bg-contain h-[800px] bg-no-repeat flex">
-      <div className="relative w-[33%]">
+      <div className="relative w-[33%] bg-blue-50 opacity-25">
         <div className="absolute right-[70px] bottom-[370px] flex flex-col gap-10">
           {" "}
           <div>
